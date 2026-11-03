@@ -179,7 +179,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-slate-900 text-center md:text-left">What I Do</h2>
           <div className="flex flex-wrap justify-center md:justify-start gap-6">
             {[
-              { title: "Web & Frontend", tools: ["HTML", "CSS", "JavaScript", "PHP"] },
+              { title: "Web", tools: ["HTML", "CSS", "JavaScript", "PHP"] },
               { title: "Android Mobile", tools: ["Kotlin", "Jetpack Compose", "Android Studio"] },
               { title: "Backend & Databases", tools: ["Express.js", "Flask", "MySQL", "SQL Server", "Realm"] },
               { title: "AI & Data Science", tools: ["Python", "Scikit-Learn", "TensorFlow", "NLP", "Google ML Kit"] },
