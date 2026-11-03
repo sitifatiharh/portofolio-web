@@ -164,13 +164,13 @@ export default function Home() {
               <a href="#projects" onClick={(e) => scrollToSection(e, "#projects")} className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-7 py-3.5 rounded-full font-medium hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20 transition-all transform">
                 View Projects <ArrowRight size={18} />
               </a>
-              <a href="/cv_rahma.pdf" download className="flex items-center gap-2 border border-slate-300 bg-white/50 backdrop-blur-sm px-7 py-3.5 rounded-full font-medium hover:bg-white hover:shadow-md transition-all">
+              <a href="/cv_rahma.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-slate-300 bg-white/50 backdrop-blur-sm px-7 py-3.5 rounded-full font-medium hover:bg-white hover:shadow-md transition-all">
                 Download CV <Download size={18} />
               </a>
             </div>
           </div>
           <div className="w-56 h-56 md:w-80 md:h-80 shrink-0 rounded-full overflow-hidden border-[6px] border-white shadow-2xl shadow-purple-500/20 hover:-translate-y-4 transition-all duration-500">
-            <img src="/profile.jpg" alt="Siti Fatiha Rahmah" className="w-full h-full object-cover" />
+            <img src="/profile.JPG" alt="Siti Fatiha Rahmah" className="w-full h-full object-cover" />
           </div>
         </motion.section>
 
