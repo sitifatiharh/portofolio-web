@@ -251,7 +251,7 @@ export default function Home() {
                 title: "NotaCara (Event-Based Expense Tracker)",
                 desc: "An Android app to automate event expense tracking via receipt scanning. It integrates TensorFlow Lite (BiLSTM-CRF) and Google ML Kit for offline OCR and AI with 92% accuracy, utilizing a Realm database to manage automated expense accumulation and dynamic date filtering.",
                 tech: ["Kotlin", "Jetpack Compose", "TFLite", "BiLSTM-CRF", "Google ML Kit", "Realm"],
-                github: "https://github.com/sitifatiharh/notacara-app",
+                github: "https://github.com/sitifatiharh/event-expense-tracker",
                 images: ["/nota1.jpg", "/nota2.jpg", "/nota2.1.jpg", "/nota3.jpg", "/nota4.jpg"]
               },
               {
