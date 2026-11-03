@@ -276,7 +276,7 @@ export default function Home() {
                 images: ["/sentiment1.png"]
               }
             ].map((project, i) => (
-                <div key={i} className={`flex flex-col rounded-3xl bg-white/70 backdrop-blur-xl border border-white shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 overflow-hidden group relative`}>
+                <div key={i} className="flex flex-col rounded-3xl bg-white/70 backdrop-blur-xl border border-white shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2 transition-all duration-300 overflow-hidden group relative">
                   
                   <ProjectSlider images={project.images} title={project.title} />
 
